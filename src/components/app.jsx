@@ -1,6 +1,12 @@
-
 import React from 'react';
 
-const App = () => <div>React simple starter</div>;
+import SearchBar from '../containers/searchBar';
+import WeatherList from '../containers/weatherList';
+
+const App = () =>
+  <div>
+    <SearchBar />
+    <WeatherList />
+  </div>;
 
 export default App;
